@@ -11,7 +11,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-    
+        run: |
+          git config --global user.name 'Deploy Jocke'
+          git config --global user.email 'samlarsson94@gmail.com'
+
       - name: Install Hugo
         run: |
           wget https://github.com/gohugoio/hugo/releases/download/v0.63.2/hugo_0.63.2_Linux-64bit.deb
