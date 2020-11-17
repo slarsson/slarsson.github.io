@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: Test 123
         run: |
           git config --global user.name 'Deploy Jocke'
           git config --global user.email 'samlarsson94@gmail.com'
