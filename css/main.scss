@@ -1,0 +1,60 @@
+// main css
+// css/main => static/style.css
+
+// vars
+$bg:rgb(14, 36, 57);
+$bg-transparent:rgba(14, 36, 57, 0.8);
+$blue1:#4799eb;
+$blue2:#4ba1f8;
+$gray1:#cdcdcd;
+
+// imports
+@import 'header.scss';
+@import 'hello.scss';
+@import 'portfolio.scss';
+
+// global stylez
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    outline:none;
+    font-family:'Source Sans Pro', sans-serif;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-touch-callout:none;
+}
+
+body {
+    width:100%;
+    height:100%;
+    font-size:16px;
+    min-height:calc(var(--vh, 1vh) * 100);
+    min-width:250px;
+    background-color:$bg;
+    color:#fff;
+}
+
+a {
+    text-decoration:none;
+}
+
+main {
+    margin:auto;
+    max-width:1000px;
+}
+
+.button--blue {
+    width:100%;
+    background-color:$blue1;
+    padding:1rem;
+    border-radius:5px;
+    text-align:center;
+    color:#fff;
+    font-weight:600;
+    display:block;
+    transition:background-color 0.2s;
+
+    &:hover {
+        background-color:$blue2;
+    }
+}

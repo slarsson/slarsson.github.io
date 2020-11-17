@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Samuel Larsson's Homepage">
+    <meta name="theme-color" content="#0e2339">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet"> 
+    
+    
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="icon" href="/favicon.png" type="image/png" />
+
+    <title>{{ .Title }} | Samuel Larsson</title>
+    
+    <script>
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    </script>
+    <script src="/wordpress.min.js" defer></script>
+</head>
+<body>
+    {{ partial "header.html" . }}
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+</body>
+</html>

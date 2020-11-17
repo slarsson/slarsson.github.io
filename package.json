@@ -1,0 +1,28 @@
+{
+  "name": "slarsson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "hugo:dev": "hugo server",
+    "hugo:build": "-E -F --baseURL=/ --minify --source hugo",
+    "css:dev": "sass --watch css/main.scss:static/style.css --no-source-map",
+    "css:build": "sass css/main.scss:static/style.css --style compressed --no-source-map",
+    "js:build": "terser --compress --output static/wordpress.min.js -- js/site.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slarsson/slarsson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slarsson/slarsson/issues"
+  },
+  "homepage": "https://github.com/slarsson/slarsson#readme",
+  "dependencies": {
+    "terser": "^5.4.0"
+  }
+}

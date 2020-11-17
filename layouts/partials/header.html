@@ -1,0 +1,9 @@
+<header>
+    <div>
+        <a href="/" class="header--logo">SL</a>
+        <nav>
+            <a {{ if eq .Section "" }} class="active" {{ end }} href="/">Home</a>
+            <a {{ if eq .Section "portfolio" }} class="active" {{ end }} href="/portfolio">Portfolio</a>
+        </nav>
+    </div>
+</header>

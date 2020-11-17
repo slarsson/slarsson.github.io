@@ -1,0 +1,143 @@
+.portfolio {
+    min-height:calc(var(--vh, 1vh) * 100);
+    padding:3rem 1rem 1rem 1rem;
+
+    h2 {
+        font-size:2rem;
+    }
+
+    .portfolio--grid {
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        grid-template-rows:auto;
+        column-gap:2rem;
+        row-gap:2rem;
+        margin-top:2rem;
+        margin-bottom:200px;
+
+        @media screen and (max-width:900px) {grid-template-columns:1fr 1fr;}
+        @media screen and (max-width:600px) {grid-template-columns:1fr;}
+    
+        & > div {
+            align-self:stretch;
+            background-color:#274059;
+            padding:1rem;
+            display:flex;
+            flex-direction:column;
+            box-shadow:0px 0px 100px 1px rgba(71, 153, 235, 0.3);
+        }
+
+        img {
+            width:100%;
+            display:block;
+        }
+
+        h3 {
+            padding-bottom:1rem;
+            font-size:1.5rem;
+            font-weight:600;
+        }
+
+        p {
+            line-height:1.4rem;
+            padding:1rem 0 1rem 0;
+        }
+
+        .goto {
+            flex:1;
+            display:flex;
+            align-items:flex-end;
+        }
+    }
+
+}
+
+.portfolio--list {
+    margin-top:80px;
+    padding-top:0;
+}
+
+.portfolio--item {
+    margin:1rem;
+    margin-top:80px;
+    margin-bottom:200px;
+
+    .back {
+        margin-bottom:1rem;
+
+        a {
+            padding:0.5rem;
+            padding-right:1rem;
+            display:inline-block;
+            line-height:0;
+            max-width:120px;
+            
+            & > div {
+                display:flex;
+                align-items:center;
+                justify-content:space-between;
+            }
+
+            svg {
+                fill:#fff;
+            }
+        }
+    }
+
+    .content {
+        background-color:#fff;
+        height:100%;
+        color:#333;
+        padding:3rem;
+
+        @media screen and (max-width:900px) {padding:0 0 3rem 0;}
+        
+        p {
+            line-height:1.5rem;
+            max-width:600px;
+            margin:1rem;
+        }
+
+        h2 {
+            font-size:2rem;
+            padding:1rem;
+            padding-bottom:0;
+        }
+
+        h3 {
+            margin:1rem;
+            font-size:1.5rem;
+            font-weight:300;
+        }
+
+        img {
+            width:100%;
+            max-width:700px;
+        }
+
+        figure {
+            margin:1rem;
+        }
+
+        em {
+            font-weight:300;
+        }
+
+        strong {
+            font-weight:600;
+        }
+
+        a {
+            color:$blue1;
+
+            a:hover {
+                color:$blue2;
+            }
+        }
+
+        figcaption {
+            font-weight:300;
+            color:$gray1;
+        }
+    }
+}

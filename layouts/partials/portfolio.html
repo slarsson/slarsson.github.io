@@ -1,0 +1,13 @@
+<div class="portfolio--grid">
+    {{ $portfolio := .Site.GetPage "/portfolio"  }}
+    {{ range $portfolio.Pages.ByPublishDate.Reverse }}
+        <div>
+            <h3>{{ .Params.title }}</h3>
+            <img src="{{ .Params.image }}" alt="{{ .Params.title }}"/>
+            <p>{{ .Params.text }}</p>
+            <div class="goto">
+                <a href="{{ .Permalink }}" class="button--blue">READ MORE</a>
+            </div>
+        </div>
+    {{ end }}
+</div>

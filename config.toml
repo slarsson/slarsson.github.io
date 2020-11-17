@@ -1,0 +1,8 @@
+canonifyURLs = true
+languageCode = "en-us"
+
+disableKinds = ["sitemap", "RSS"]
+disableHugoGeneratorInject = true
+
+[markup.goldmark.renderer]
+    unsafe= true
