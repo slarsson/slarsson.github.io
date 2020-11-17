@@ -1,3 +1,4 @@
 public/
 *.css.map
 node_modules
+.vscode
