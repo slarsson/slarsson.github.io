@@ -40,7 +40,10 @@
             padding-right:min(calc(0.2rem + 1vw), 5rem);
             background: rgb(255,0,0);
             background: linear-gradient(147deg, rgba(255,0,0,1) 0%, rgba(255,0,48,1) 1%, rgba(255,0,153,1) 37%, rgba(255,220,0,1) 100%, rgba(0,86,236,1) 255%);
-            box-shadow:0px 0px 250px 20px #ff0099;
+            
+            box-shadow:0px 0px 60px 10px #ff0099;
+            //filter: drop-shadow(0 70px 70px #ff0099);
+            //box-shadow:0px 0px 250px 120px #ff0099;
         }
     }
 

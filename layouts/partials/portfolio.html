@@ -6,7 +6,7 @@
             <img src="{{ .Params.image }}" alt="{{ .Params.title }}"/>
             <p>{{ .Params.text }}</p>
             <div class="goto">
-                <a href="{{ .RelPermalink }}" class="button--blue">READ MORE</a>
+                <a href="{{ .RelPermalink }}" class="button--blue" data-prefetch="true">READ MORE</a>
             </div>
         </div>
     {{ end }}

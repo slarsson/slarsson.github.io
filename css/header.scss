@@ -3,9 +3,10 @@
 header {
     position:fixed;
     left:0;
-    top:0;
+    top:0px;
     width:100%;
     background-color:$bg-transparent;
+    z-index:0;
 
     & > div {
         margin:0 auto 0 auto;
