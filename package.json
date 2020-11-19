@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/slarsson/slarsson#readme",
   "dependencies": {
+    "sass": "^1.29.0",
     "terser": "^5.4.0"
   }
 }
