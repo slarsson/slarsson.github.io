@@ -19,8 +19,14 @@ jobs:
 
       - name: Install Hugo
         run: |
-          wget https://github.com/gohugoio/hugo/releases/download/v0.63.2/hugo_0.63.2_Linux-64bit.deb
-          sudo dpkg -i hugo_0.63.2_Linux-64bit.deb
+          wget https://github.com/gohugoio/hugo/releases/download/v0.78.2/hugo_0.78.2_Linux-64bit.deb
+          sudo dpkg -i hugo_0.78.2_Linux-64bit.deb
+
+    #https://github.com/gohugoio/hugo/releases/download/v0.78.2/hugo_0.78.2_Linux-64bit.deb
+      # - name: Install Hugo
+      #   run: |
+      #     wget https://github.com/gohugoio/hugo/releases/download/v0.63.2/hugo_0.63.2_Linux-64bit.deb
+      #     sudo dpkg -i hugo_0.63.2_Linux-64bit.deb
 
     #   - name: Build site with Hugo
     #     run: |

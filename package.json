@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "hugo:dev": "hugo server",
-    "hugo:build": "-E -F --baseURL=/ --minify --source hugo",
+    "hugo:build": "hugo -E -F --baseURL=/ --minify",
     "css:dev": "sass --watch css/main.scss:static/style.css --no-source-map",
     "css:build": "sass css/main.scss:static/style.css --style compressed --no-source-map",
     "js:build": "terser --compress --output static/wordpress.min.js -- js/site.js",
