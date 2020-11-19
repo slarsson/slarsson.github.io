@@ -29,7 +29,7 @@ jobs:
         run: |
           npm run css:build
           npm run js:build
-          /usr/local/bin/hugo -E -F --baseURL=/slarsson/ --minify 
+          /usr/local/bin/hugo -E -F --baseURL=/ --minify 
           bash .github/nojekyll.sh
 
       - name: Add build to gh-pages
