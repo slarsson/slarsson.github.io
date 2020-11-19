@@ -29,9 +29,7 @@ jobs:
         run: |
           npm run css:build
           npm run js:build
-        # -E, -F => ignore date created
           /usr/local/bin/hugo -E -F --baseURL=/slarsson/ --minify 
-        # add .nojkyll file to all folders
           bash .github/nojekyll.sh
 
       - name: Add build to gh-pages
