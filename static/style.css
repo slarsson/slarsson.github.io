@@ -162,7 +162,7 @@ header nav a:hover:not(.active) {
   margin-bottom: 200px;
 }
 .portfolio--item .back {
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 .portfolio--item .back a {
   padding: 0.5rem;
@@ -181,6 +181,7 @@ header nav a:hover:not(.active) {
 }
 .portfolio--item .content {
   background-color: #fff;
+  box-shadow: 0px 0px 100px 1px rgba(71, 153, 235, 0.3);
   height: 100%;
   color: #333;
   padding: 3rem;
@@ -209,6 +210,14 @@ header nav a:hover:not(.active) {
   width: 100%;
   max-width: 700px;
 }
+.portfolio--item .content blockquote {
+  max-width: 800px;
+  padding: 5px 5px 5px 0px;
+  background-color: #c1dcf8;
+  display: block;
+  border-left: 5px solid #4799eb;
+  margin-left: -5px;
+}
 .portfolio--item .content figure {
   margin: 1rem;
 }
@@ -226,7 +235,6 @@ header nav a:hover:not(.active) {
 }
 .portfolio--item .content figcaption {
   font-weight: 300;
-  color: #cdcdcd;
 }
 
 * {

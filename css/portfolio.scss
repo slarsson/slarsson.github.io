@@ -63,7 +63,7 @@
     margin-bottom:200px;
 
     .back {
-        margin-bottom:1rem;
+        margin-bottom:10px;
 
         a {
             padding:0.5rem;
@@ -86,6 +86,7 @@
 
     .content {
         background-color:#fff;
+        box-shadow:0px 0px 100px 1px rgba(71, 153, 235, 0.3);
         height:100%;
         color:#333;
         padding:3rem;
@@ -115,6 +116,17 @@
             max-width:700px;
         }
 
+        blockquote {
+            //margin:10px;
+            max-width:800px;
+            padding:5px 5px 5px 0px;
+            //padding:5px;
+            background-color:$blue3;
+            display:block;
+            border-left:5px solid $blue1;
+            margin-left:-5px;
+        }
+
         figure {
             margin:1rem;
         }
@@ -137,7 +149,6 @@
 
         figcaption {
             font-weight:300;
-            color:$gray1;
         }
     }
 }
