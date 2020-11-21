@@ -4,11 +4,10 @@ image: /plane-1.png
 project: school
 weight: 7
 text: | 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    3D airplane game running in the web browser. 
 ---
 
-
-
+*The text will be updated soon..*
 
 <figure>
   <img src="/plane-1.png" alt="?" style="width:100%">

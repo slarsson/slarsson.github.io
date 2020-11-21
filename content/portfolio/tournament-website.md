@@ -4,9 +4,19 @@ image: /tournament-1.png
 project: school
 weight: 5
 text: | 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Tournament management web application. React frontend with a Node.js backend and MongoDB database. 
 ---
 
+*The text will be updated soon..*
+
+<blockquote>
+
+Code: 
+[https://github.com/slarsson/api-tournament/
+](https://github.com/slarsson/api-tournament
+ "the source code on github")
+
+</blockquote>
 
 <figure>
   <img src="/tournament-1.png" alt="?" style="width:100%">

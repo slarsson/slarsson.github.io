@@ -4,33 +4,55 @@ image: /aim-thumb.png
 project: work
 weight: 2
 text: | 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Hybrid Android and iOS application used in a research project within sports. Created with JavaScript and the framework Svelte.
 ---
-
 <figure>
-  <img src="/aim-0.png" alt="?" style="width:100%">
+  <img style="background-color:#cdcdcd" src="/aim-0.png" alt="?" style="width:100%">
 </figure> 
 
-<figure>
-  <img src="/aim-1.png" alt="?" style="width:100%">
-</figure> 
+Took over maintenance and development for an application used by a research project within injuries in sports. Developed a hybrid web application from scratch and made major updates to an existing backend. Developed a system where an administrator can send out push-notifications to specific users of the application. 
 
-<figure>
-  <img src="/aim-2.png" alt="?" style="width:100%">
-</figure> 
+The hybrid web application is developed with the framework Svelte (an alternative to Vue and React) and Capacitor (a framework who makes it possible to embed a web application inside of an iOS and Android application).
 
-<figure>
-  <img src="/aim-3.png" alt="?" style="width:100%">
-</figure> 
+Worked with: *JavaScript, Svelte, Capacitor.js, Apple- and Google services, PHP, Laravel, MySQL*
 
-<figure>
-  <img src="/aim-4.png" alt="?" style="width:100%">
-</figure> 
+<blockquote>
 
-<figure>
-  <img src="/aim-5.png" alt="?" style="width:100%">
-</figure> 
+Article about the project (swedish): 
+[https://liu.se/nyhet/aha-i-stallet-for-aj/
+](https://liu.se/nyhet/aha-i-stallet-for-aj
+ "Aha i stället för aj – Forskning på LiU förebygger skador inom idrotten")
 
-<figure>
-  <img src="/aim-6.png" alt="?" style="width:100%">
-</figure> 
+</blockquote>
+
+<br>
+<br>
+Screenshots of the application and admin portal:
+<div class="aimcontrol">
+  <figure>
+    <img src="/aim-5.png" alt="?" style="width:100%">
+  </figure> 
+
+
+
+  <figure>
+    <img style="max-width:300px;" src="/aim-1.png" alt="?" style="width:100%">
+  </figure> 
+
+  <figure>
+    <img style="max-width:300px;" src="/aim-2.png" alt="?" style="width:100%">
+  </figure> 
+
+  <figure>
+    <img  style="max-width:300px;" src="/aim-3.png" alt="?" style="width:100%">
+  </figure> 
+
+  <figure>
+    <img  style="max-width:300px;" src="/aim-4.png" alt="?" style="width:100%">
+  </figure> 
+
+
+  <figure>
+    <img  style="max-width:300px;" src="/aim-6.png" alt="?" style="width:100%">
+  </figure> 
+</div>

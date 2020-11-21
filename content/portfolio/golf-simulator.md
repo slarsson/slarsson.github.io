@@ -4,8 +4,10 @@ image: /golf-1.png
 project: school
 weight: 3
 text: | 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Realistic simulation of a golf ball flight path. Implemented as a simple web browser game with JavaScript and three.js. 
 ---
+
+*The text will be updated soon..*
 
 <figure>
   <img src="/golf-1.png" alt="?" style="width:100%">

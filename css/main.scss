@@ -62,3 +62,29 @@ main {
         background-color:$blue2;
     }
 }
+
+.not-found {
+    padding-top:80px;
+    min-height:calc(var(--vh, 1vh) * 100);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    & > div {
+        padding:1rem;
+
+        & > div {
+            display:flex;
+            align-items:center;
+        }
+    }
+
+    h1 {
+        font-size:min(calc(1.5rem + 2vw), 4rem);
+        word-wrap: wrap;
+
+        span {
+            color:$gray1;
+        }
+    }
+}

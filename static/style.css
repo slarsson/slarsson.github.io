@@ -153,32 +153,6 @@ header nav a:hover:not(.active) {
   display: flex;
   align-items: flex-end;
 }
-.portfolio .portfolio--grid .type {
-  align-self: flex-start;
-  display: inline-flex;
-  align-items: center;
-  padding: 5px;
-  padding-right: 20px;
-  border-radius: 5px;
-  margin-top: 1rem;
-  color: #fff;
-  align-items: center;
-}
-.portfolio .portfolio--grid .type svg {
-  margin-right: 10px;
-  width: 24px;
-  height: 24px;
-  fill: #fff;
-}
-.portfolio .portfolio--grid .personal {
-  background-color: #ff0794;
-}
-.portfolio .portfolio--grid .work {
-  background-color: #ff823f;
-}
-.portfolio .portfolio--grid .school {
-  background-color: #ff0032;
-}
 
 .portfolio--list {
   margin-top: 80px;
@@ -217,7 +191,7 @@ header nav a:hover:not(.active) {
 }
 @media screen and (max-width: 900px) {
   .portfolio--item .content {
-    padding: 0 0 3rem 0;
+    padding: 1rem 0 3rem 0;
   }
 }
 .portfolio--item .content p {
@@ -231,8 +205,9 @@ header nav a:hover:not(.active) {
   padding-bottom: 0;
 }
 .portfolio--item .content h3 {
-  margin: 1rem;
-  font-size: 1.5rem;
+  margin: 0.5rem;
+  margin-left: 1rem;
+  font-size: 1.4rem;
   font-weight: 300;
 }
 .portfolio--item .content img {
@@ -264,6 +239,48 @@ header nav a:hover:not(.active) {
 }
 .portfolio--item .content figcaption {
   font-weight: 300;
+}
+.portfolio--item .content .type--item {
+  padding: 0rem 1rem 0rem 1rem;
+}
+.portfolio--item .content .type--item .type {
+  margin: 0;
+}
+
+.portfolio .type, .portfolio--item .type {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px;
+  padding-right: 20px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  color: #fff;
+  align-items: center;
+}
+.portfolio .type svg, .portfolio--item .type svg {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+.portfolio .personal, .portfolio--item .personal {
+  background-color: #ff0794;
+}
+.portfolio .work, .portfolio--item .work {
+  background-color: #ff823f;
+}
+.portfolio .school, .portfolio--item .school {
+  background-color: #ff0032;
+}
+
+.aimcontrol {
+  display: flex;
+  flex-wrap: wrap;
+}
+.aimcontrol img:first-of-type {
+  width: 100%;
+  border: 1px solid #cdcdcd;
 }
 
 * {
@@ -316,4 +333,26 @@ main {
 }
 .button--blue:hover {
   background-color: #4ba1f8;
+}
+
+.not-found {
+  padding-top: 80px;
+  min-height: calc(var(--vh, 1vh) * 100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.not-found > div {
+  padding: 1rem;
+}
+.not-found > div > div {
+  display: flex;
+  align-items: center;
+}
+.not-found h1 {
+  font-size: min(calc(1.5rem + 2vw), 4rem);
+  word-wrap: wrap;
+}
+.not-found h1 span {
+  color: #cdcdcd;
 }
