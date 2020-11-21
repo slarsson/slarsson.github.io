@@ -38,9 +38,13 @@
             font-weight:600;
         }
 
+        a {
+            color:#fff;
+        }
+
         p {
             line-height:1.4rem;
-            padding:1rem 0 1rem 0;
+            padding:0.5rem 0 1rem 0;
         }
 
         .goto {
@@ -48,6 +52,29 @@
             display:flex;
             align-items:flex-end;
         }
+
+        .type {
+            align-self:flex-start;
+            display:inline-flex;
+            align-items:center;
+            padding:5px;
+            padding-right:20px;
+            border-radius:5px;
+            margin-top:1rem;
+            color:#fff;
+            align-items:center;
+
+            svg {
+                margin-right:10px;
+                width:24px;
+                height:24px;
+                fill:#fff;
+            }
+        }
+
+        .personal {background-color:#ff0794;}
+        .work {background-color:#ff823f;}
+        .school {background-color:#ff0032;}
     }
 
 }

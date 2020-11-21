@@ -25,6 +25,9 @@ $gray1:#cdcdcd;
     -webkit-touch-callout:none;
 }
 
+::-moz-selection { background: $blue1; }
+::selection { background: $blue1; }
+
 body {
     width:100%;
     height:100%;

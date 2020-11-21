@@ -141,14 +141,43 @@ header nav a:hover:not(.active) {
   font-size: 1.5rem;
   font-weight: 600;
 }
+.portfolio .portfolio--grid a {
+  color: #fff;
+}
 .portfolio .portfolio--grid p {
   line-height: 1.4rem;
-  padding: 1rem 0 1rem 0;
+  padding: 0.5rem 0 1rem 0;
 }
 .portfolio .portfolio--grid .goto {
   flex: 1;
   display: flex;
   align-items: flex-end;
+}
+.portfolio .portfolio--grid .type {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px;
+  padding-right: 20px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  color: #fff;
+  align-items: center;
+}
+.portfolio .portfolio--grid .type svg {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+.portfolio .portfolio--grid .personal {
+  background-color: #ff0794;
+}
+.portfolio .portfolio--grid .work {
+  background-color: #ff823f;
+}
+.portfolio .portfolio--grid .school {
+  background-color: #ff0032;
 }
 
 .portfolio--list {
@@ -245,6 +274,14 @@ header nav a:hover:not(.active) {
   font-family: "Source Sans Pro", sans-serif;
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
+}
+
+::-moz-selection {
+  background: #4799eb;
+}
+
+::selection {
+  background: #4799eb;
 }
 
 body {
