@@ -12,10 +12,8 @@ if (!('Promise' in window)) {throw 'ES6 NOT SUPPORTED, ABORT!';}
     const inject = (html) => {
         const doc = new DOMParser().parseFromString(html, 'text/html');
 
+        // only the title needs to change, the rest stays the same..
         document.title = doc.title;
-        if (document.head.innerHTML != doc.head.innerHTML) {
-            document.head.parentNode.replaceChild(doc.head, document.head);
-        }
         document.body.parentNode.replaceChild(doc.body, document.body);
     }
 
