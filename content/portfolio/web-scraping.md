@@ -7,7 +7,14 @@ text: |
     Price comparison website powered by web scraping. Built with Python, TypeScript (Next.js and React), MySQL and Docker. 
 ---
 
-*The text will be updated soon..*
+Bachelor project during my third year in the education *Master of Science in Media Technology and Engineering* at Linköping University. The project was carried out together with five other students and the agile project management methodology Scrum were used.
+
+During the project the group created a price comparison website with Next.js, an automated web scraping service in Python and an admin interface with React. I mainly worked on the web scraping and data collection part, database structure and built the admin interface.
+
+Worked with: *TypeScript, Next.js, React, Python, asyncio, AIOHTTP, BeautifulSoup, Docker, MySQL, GitHub Actions*
+
+Screenshots of the admin interface:
+
 
 <figure>
   <img src="/tnm034-1.png" alt="?" style="width:100%">

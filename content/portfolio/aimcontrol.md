@@ -4,13 +4,13 @@ image: /aim-thumb.png
 project: work
 weight: 2
 text: | 
-    Hybrid Android and iOS application used in a research project within sports. Created with JavaScript and the framework Svelte.
+    Hybrid Android and iOS application used in a research project within sports. Created with JavaScript, Svelte and Capacitor.
 ---
 <figure>
-  <img style="background-color:#cdcdcd" src="/aim-0.png" alt="?" style="width:100%">
+  <img style="background-color:#c1dcf8" src="/aim-0.png" alt="?" style="width:100%">
 </figure> 
 
-Took over maintenance and development for an application used by a research project within injuries in sports. Developed a hybrid web application from scratch and made major updates to an existing backend. Developed a system where an administrator can send out push-notifications to specific users of the application. 
+Developed a hybrid web application from scratch and made major updates to an existing backend. Developed a system where an administrator can send out push-notifications to specific users of the application. 
 
 The hybrid web application is developed with the framework Svelte (an alternative to Vue and React) and Capacitor (a framework who makes it possible to embed a web application inside of an iOS and Android application).
 
@@ -28,7 +28,7 @@ Article about the project (swedish):
 <br>
 <br>
 Screenshots of the application and admin portal:
-<div class="aimcontrol">
+<div class="portfolio-image-flex">
   <figure>
     <img src="/aim-5.png" alt="?" style="width:100%">
   </figure> 

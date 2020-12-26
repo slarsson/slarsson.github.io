@@ -7,7 +7,10 @@ text: |
     Realistic simulation of a golf ball flight path. Implemented as a simple web browser game with JavaScript and three.js. 
 ---
 
-*The text will be updated soon..*
+Together with three other students we built a simple golf simulator as a project for the course *TNM085 - Modelling Project* at Linköping University. A mathematical model for the flightpath was first implemented in MATLAB. The model was then used in the implementation of a simple web browser game.
+
+The game was created with JavaScript and three.js and used a custom Webpack/Gulp development setup. Assets were created in Blender.
+
 
 <figure>
   <img src="/golf-1.png" alt="?" style="width:100%">

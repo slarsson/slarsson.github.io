@@ -7,11 +7,16 @@ text: |
     Tournament management web application. React frontend with a Node.js backend and MongoDB database. 
 ---
 
-*The text will be updated soon..*
+Together with four other students we built a tournament web service. The website makes it possible for a user to handle and share the results of a tournament. The user enters participants and the website generates random groups. The user then adds the results of the games as they progress and the website keeps track of who proceeds to the playoff. The user can share a link to a view-only overview of the tournament. Screenshots of the application can be seen below.
+
+I built a backend service in JavaScript/Node with minimal dependencies that handles the tournament logic and user actions.
+
+Worked with: *JavaScript/Node, MongoDB, React*
+
 
 <blockquote>
 
-Code: 
+Backend code: 
 [https://github.com/slarsson/api-tournament/
 ](https://github.com/slarsson/api-tournament
  "the source code on github")

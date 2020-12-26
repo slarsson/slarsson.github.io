@@ -119,13 +119,12 @@
         img {
             width:100%;
             max-width:700px;
+            box-shadow:0px 0px 5px 1px $blue3;
         }
 
         blockquote {
-            //margin:10px;
             max-width:800px;
             padding:5px 5px 5px 0px;
-            //padding:5px;
             background-color:$blue3;
             display:block;
             border-left:5px solid $blue1;
@@ -157,7 +156,6 @@
         }
 
         .type--item {
-            //background-color:blue;
             padding:0rem 1rem 0rem 1rem;
 
             .type {
@@ -172,18 +170,21 @@
         align-self:flex-start;
         display:inline-flex;
         align-items:center;
-        padding:5px;
-        padding-right:20px;
+        padding:5px 0px 5px 5px;
         border-radius:5px;
         margin-top:1rem;
         color:#fff;
         align-items:center;
 
         svg {
-            margin-right:10px;
             width:24px;
             height:24px;
             fill:#fff;
+        }
+
+        p {
+            padding:0px 10px 0px 10px;
+            margin:0;
         }
     }
 
@@ -193,12 +194,7 @@
 }
 
 // special
-.aimcontrol {
+.portfolio-image-flex {
     display:flex;
     flex-wrap:wrap;
-
-    img:first-of-type {
-        width:100%;
-        border:1px solid $gray1; 
-    }
 }
