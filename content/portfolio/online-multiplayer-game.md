@@ -8,7 +8,7 @@ text: |
 ---
 
 <figure>
-  <img src="/tanks-1.png" alt="?" style="width:100%">
+  <img src="/tanks-1.png" alt="game screen 1" style="width:100%">
 </figure> 
 
 During summer 2020 I worked on a personal project of implementing a simple online multiplayer game in the web browser. The game lets a player control a tank and the goal is to kill the opponents, inspired by games such as Battlefield and World of Tanks.  
@@ -29,10 +29,10 @@ Code:
 </blockquote>
 
 <figure>
-  <img src="/tanks-2.png" alt="?" style="width:100%">
+  <img src="/tanks-2.png" alt="game screen 2" style="width:100%">
 </figure> 
 
 <figure>
-  <img src="/tanks-3.png" alt="?" style="width:100%">
+  <img src="/tanks-3.png" alt="game screen 3" style="width:100%">
 </figure> 
 

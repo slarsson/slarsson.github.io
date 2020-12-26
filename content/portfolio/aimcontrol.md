@@ -30,29 +30,21 @@ Article about the project (swedish):
 Screenshots of the application and admin portal:
 <div class="portfolio-image-flex">
   <figure>
-    <img src="/aim-5.png" alt="?" style="width:100%">
+    <img src="/aim-5.png" alt="aimcontrol screen 1" style="width:100%">
   </figure> 
-
-
-
   <figure>
-    <img style="max-width:300px;" src="/aim-1.png" alt="?" style="width:100%">
+    <img style="max-width:300px;" src="/aim-1.png" alt="aimcontrol screen 2" style="width:100%">
   </figure> 
-
   <figure>
-    <img style="max-width:300px;" src="/aim-2.png" alt="?" style="width:100%">
+    <img style="max-width:300px;" src="/aim-2.png" alt="aimcontrol screen 3" style="width:100%">
   </figure> 
-
   <figure>
-    <img  style="max-width:300px;" src="/aim-3.png" alt="?" style="width:100%">
+    <img  style="max-width:300px;" src="/aim-3.png" alt="aimcontrol screen 4" style="width:100%">
   </figure> 
-
   <figure>
-    <img  style="max-width:300px;" src="/aim-4.png" alt="?" style="width:100%">
+    <img  style="max-width:300px;" src="/aim-4.png" alt="aimcontrol screen 5" style="width:100%">
   </figure> 
-
-
   <figure>
-    <img  style="max-width:300px;" src="/aim-6.png" alt="?" style="width:100%">
+    <img  style="max-width:300px;" src="/aim-6.png" alt="aimcontrol screen 6" style="width:100%">
   </figure> 
 </div>

@@ -13,9 +13,9 @@ The game was created with JavaScript and three.js and used a custom Webpack/Gulp
 
 
 <figure>
-  <img src="/golf-1.png" alt="?" style="width:100%">
+  <img src="/golf-1.png" alt="golf screen 1" style="width:100%">
 </figure> 
 
 <figure>
-  <img src="/golf-2.png" alt="?" style="width:100%">
+  <img src="/golf-2.png" alt="golf screen 2" style="width:100%">
 </figure> 

@@ -24,15 +24,15 @@ Backend code:
 </blockquote>
 
 <figure>
-  <img src="/tournament-1.png" alt="?" style="width:100%">
+  <img src="/tournament-1.png" alt="tournament screen 1" style="width:100%">
 </figure> 
 
 <figure>
-  <img src="/tournament-2.png" alt="?" style="width:100%">
+  <img src="/tournament-2.png" alt="tournament screen 2" style="width:100%">
 </figure> 
 
 <figure>
-  <img src="/tournament-3.png" alt="?" style="width:100%">
+  <img src="/tournament-3.png" alt="tournament screen 3" style="width:100%">
 </figure> 
 
 

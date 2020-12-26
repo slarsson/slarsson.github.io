@@ -17,10 +17,10 @@ Screenshots of the admin interface:
 
 
 <figure>
-  <img src="/tnm034-1.png" alt="?" style="width:100%">
+  <img src="/tnm034-1.png" alt="web scraping screen 1" style="width:100%">
 </figure> 
 
 <figure>
-  <img src="/tnm034-2.png" alt="?" style="width:100%">
+  <img src="/tnm034-2.png" alt="web scraping screen 2" style="width:100%">
 </figure> 
 

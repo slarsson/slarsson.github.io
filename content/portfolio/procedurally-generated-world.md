@@ -8,9 +8,9 @@ text: |
 ---
 
 <figure>
-  <img src="/plane-1.png" alt="?" style="width:100%">
+  <img src="/plane-1.png" alt="airplane screen 1" style="width:100%">
 </figure> 
 
 <figure>
-  <img src="/plane-2.png" alt="?" style="width:100%">
+  <img src="/plane-2.png" alt="airplane screen 2" style="width:100%">
 </figure> 
