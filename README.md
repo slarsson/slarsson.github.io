@@ -1,5 +1,4 @@
 # slarsson.me
+My portfolio website.
 
-TODO: add text here..
-
-Hugo, version 0.78.2
+Hugo version: 0.78.2
